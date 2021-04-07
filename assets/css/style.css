@@ -3,6 +3,16 @@
   src: local('American Typewriter Medium BT'), url(../fonts/american-typewriter-medium-bt.ttf) format('truetype');
 }
 
+:root {
+  --header-outer-height: 120px;
+  --header-inner-height: 70px;
+  --header-height-difference: calc(
+      var(--header-outer-height) - var(--header-inner-height)
+  );
+  --header-bg: #304050;
+  --text: #ddd;
+}
+
 body {
   margin: 0;
   padding: 0;
