@@ -1,0 +1,10 @@
+@font-face {
+  font-family: 'American Typewriter Medium BT';
+  src: local('American Typewriter Medium BT'), url(../fonts/american-typewriter-medium-bt.ttf) format('truetype');
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
